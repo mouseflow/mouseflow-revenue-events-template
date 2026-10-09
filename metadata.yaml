@@ -15,5 +15,5 @@
 homepage: "https://mouseflow.com/"
 documentation: "https://help.mouseflow.com/en/"
 versions:
-  - sha: 09205df678cffd16c0027ed3363a09e5714de78a
+  - sha: 10622d46e1855dffff3b7c68578d6d53e3da5e40
     changeNotes: Initial release
