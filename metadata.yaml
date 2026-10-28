@@ -15,5 +15,7 @@
 homepage: "https://mouseflow.com/"
 documentation: "https://help.mouseflow.com/en/"
 versions:
+  - sha: d1be61a0621eb4febdf85b88fce1cbb8390b0deb
+    changeNotes: Fix subtotal parameter mapping and field label.
   - sha: 10622d46e1855dffff3b7c68578d6d53e3da5e40
     changeNotes: Initial release
