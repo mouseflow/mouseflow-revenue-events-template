@@ -137,7 +137,7 @@ ___TEMPLATE_PARAMETERS___
       {
         "type": "TEXT",
         "name": "subTotal",
-        "displayName": "Revenue",
+        "displayName": "Subtotal",
         "simpleValueType": true,
         "help": "Optional. Order value before tax and shipping.",
         "enablingConditions": [
@@ -500,7 +500,7 @@ if (data.eventType === 'order-placed') {
 
     put(payload, 'order_id', orderId);
     put(payload, 'optional_id', text(data.optionalId));
-    put(payload, 'subtotal', decimal(data.subtotal));
+    put(payload, 'subtotal', decimal(data.subTotal));
 } else {
     if (checkoutId === undefined) checkoutId = text(source.transaction_id);
     if (checkoutId === undefined) checkoutId = readStoredCheckoutId();
