@@ -15,7 +15,7 @@
 homepage: "https://mouseflow.com/"
 documentation: "https://help.mouseflow.com/en/"
 versions:
-  - sha: cf8af73f26abae7785a0b5f66d3a8d49d3278720
+  - sha: 0bf7cfcd52dcef8314cccf89ae76e1abd0bdfb3a
     changeNotes: Fix subtotal parameter mapping and field label; update brand icon to 96x96.
   - sha: 10622d46e1855dffff3b7c68578d6d53e3da5e40
     changeNotes: Initial release
